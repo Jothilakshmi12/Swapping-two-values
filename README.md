@@ -10,7 +10,7 @@ Get the two values from the user
 ### Step 2: 
 Assign the value of second variable to a temporary variable 
 ### Step 3: 
-Assign the value of the first variable to the second variable.
+Assign the value of the first variable to the second variable
 ### Step 4:  
 Assign the value in temporary variable to the first variable
 ### Step 5: 
@@ -18,9 +18,20 @@ Print both the values it would be interchanged
 ### Step 6: 
 End the program
 ## PROGRAM:
+```
+#Program to swap two values.
+#Developed by: Jothilakshmi
+#RegisterNumber: 23006961
+x=input()
+y=input()
+temp=x
+x=y
+y=temp
+print("Swapped values are:",x,y)
 
-
-
+```
+## OUTPUT:
+!["Output"](/swapoutput.png)
 ## RESULT:
 Thus the swapping of two values are successfully executed
 
